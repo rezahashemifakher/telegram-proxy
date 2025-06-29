@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 export default async function handler(req, res) {
   const token = "7294591412:AAH5ikzT-_ksf5LXb-v7sBnM7iY8ovjXumQ";
   const chat_id = req.query.chat_id || "@HACir";
