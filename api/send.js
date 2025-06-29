@@ -29,3 +29,13 @@ export default async function handler(req, res) {
   const result = await telegram.json();
   res.status(200).json(result);
 }
+reply_markup: {
+  inline_keyboard: [
+    [
+      {
+        text: "مشاهده محصول",
+        url: req.query.link || "https://hac.ir"
+      }
+    ]
+  ]
+}
