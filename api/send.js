@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ ok: false, error: 'chat_id و text اجباری هستند' });
     }
 
-    const token = '7294591412:AAH5ikzT-_ksf5LXb-v7sBnM7iY8ovjXumQ';
+    const token = '459983979:AAEOMagW83pDDcU__tVMyIZqXlw5P58uiOI';
 
     const keyboard = {
       inline_keyboard: [
